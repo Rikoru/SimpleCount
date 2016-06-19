@@ -13,12 +13,15 @@ int main() {
 	
 	time(&startTime); 
 	
-	std::cout << "Tally increases on 1, decreases on 0.\n(0) ";
+	std::cout << "Tally increases on 1, decreases on 0.\n" 
+		<< "EOF (ctrl+d) outputs final results.\n(0) ";
 	
 	while((c = std::cin.get()) != EOF){
-		if (c == '\n') std::cout << "(" << count << ") ";
-		if (c == '1') count++;
-		if (c == '0') count--;
+		switch(c){
+			case '\n': std::cout << "(" << count << ") "; break;
+			case '1': count++; break;
+			case '0': count--; break;
+		}
 	}
 	
 	time(&endTime);
