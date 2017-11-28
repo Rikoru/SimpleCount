@@ -1,6 +1,7 @@
 #include <iostream>
 #include <iomanip>
 #include <ctime>
+#include <stdio.h>
 
 int main() {
 	char c = ' ';
