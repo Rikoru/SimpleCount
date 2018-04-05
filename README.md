@@ -20,3 +20,8 @@ A lightweight program for finding the ratio of something occurring over a span o
 ### Windows
 
 Basically the same as _UNIX-like,_ but compiling might require the use of an IDE.
+
+##Usage instruction
+Enter 1 to increase tally, 0 to decrease tally
+ctrl+d outputs final results
+NOTE: ctrl+c exits without output
