@@ -21,3 +21,9 @@ A lightweight program for finding the ratio of something occurring over a span o
 - Enter 1 to increase tally, 0 to decrease tally
 - ctrl+d outputs final results
 - ctrl+c to cancel and exit
+
+## Contributing
+Follow the 'fork-and-pull' Git workflow:
+1. **Fork** the repository
+2. Make the suggested changes to the project
+3. Submit a **Pull Request** 
